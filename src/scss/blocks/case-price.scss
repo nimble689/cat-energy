@@ -1,0 +1,25 @@
+.case-price {
+    display: flex;
+    justify-content: space-between;
+    @media(max-width: 1000px) {
+ 
+        flex-direction: column;
+        justify-content: flex-start;
+          }
+          @media(max-width: 600px) {
+ 
+            flex-direction: row;
+            justify-content: center;
+            margin-bottom: 40px;
+              }
+}
+.case-price__title, .case-price__text {
+    @media(max-width: 1000px) {
+ 
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        text-transform: uppercase;
+        
+          }
+}
