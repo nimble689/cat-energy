@@ -1,0 +1,2 @@
+(()=>{"use strict";const e=document.querySelector(".case-slider__input"),t=document.querySelectorAll(".case-slider__img-container"),c=()=>{const c=e.value;t[0].style.width=100-c+"%",t[1].style.width=`${c}%`},n=document.querySelector(".main-header__open-button"),s=document.querySelector(".main-header__list");c(),e.addEventListener("input",c),n.addEventListener("click",(()=>{s.classList.toggle("open"),n.classList.toggle("active")}))})();
+//# sourceMappingURL=bundle.js.map
